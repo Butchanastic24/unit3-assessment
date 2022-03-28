@@ -1,0 +1,87 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#golf{
+	display:flex;
+	font-size: larger;
+	color: green;
+	align-items: center;
+	justify-content: space-between;
+}
+.imgs{
+	height: 200px;
+	width: 200px;
+}
+
+#guitar{
+	display:flex;
+	font-size: larger;
+	color: red;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h3{
+	text-align: center;
+}
+
+#skills{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 35px;
+}
+
+#careerGoals{
+	border: 1px dashed crimson;
+}
+
+.yelBtns{
+	background-color: yellow;
+	padding: 20px;
+	font-size: 14px;
+	border-radius: 20%;
+}
+
+.restaurants{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 35px;
+}
